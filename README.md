@@ -83,7 +83,7 @@ mount-bind /data/data/com.termux/files/home/source_dir /data/data/com.termux/fil
 installation is as easiest as it can be we just have a .deb package in the releases tab that you can install in termux using dpkg -i *.deb
 remember to do 
 ```bash
-pkg update -y && pkg upgrade -y
+pkg update -y && pkg upgrade -y && pkg install clang make cmake git wget autoconf e2fsprogs
 ```
 before installing the .deb package or it might ruin termux's packagement system
 ## Usage Examples
