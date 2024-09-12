@@ -23,18 +23,18 @@ This command mounts a file system image to a specified directory.
 **Usage:**
 
 ```sh
-mount --file <example.img> --mount <example.dir/mount>
+mount <example.img> <example.dir/mount>
 ```
 
 **Parameters:**
 
-- `--file <example.img>`: The path to the file system image to mount.
-- `--mount <example.dir/mount>`: The directory where the file system image will be mounted.
+- `<example.img>`: The path to the file system image to mount.
+- `<example.dir/mount>`: The directory where the file system image will be mounted.
 
 **Example:**
 
 ```sh
-mount --file /data/data/com.termux/files/home/example.img --mount /data/data/com.termux/files/home/mountpoint
+mount /data/data/com.termux/files/home/example.img /data/data/com.termux/files/home/mountpoint
 ```
 
 ### `unmount`
@@ -44,18 +44,17 @@ This command unmounts a previously mounted file system image.
 **Usage:**
 
 ```sh
-unmount --file <original.img> --umount <example.dir/mount>
+unmount <example.dir/mount>
 ```
 
 **Parameters:**
 
-- `--file <original.img>`: The path to the original file system image.
-- `--umount <example.dir/mount>`: The directory where the file system image is mounted.
+- `<example.dir/mount>`: The directory where the file system image is mounted.
 
 **Example:**
 
 ```sh
-unmount --file /data/data/com.termux/files/home/example.img --umount /data/data/com.termux/files/home/mountpoint
+unmount /data/data/com.termux/files/home/mountpoint
 ```
 
 ### `mount-bind`
@@ -94,16 +93,16 @@ before running the .sh script or it might ruin termux's packagement system
     genext2fs -b 1024 -i 256 -m 10 /data/data/com.termux/files/home/example.img
     ```
 
-2. **Mounting the File System Image:**
+2. **Mounting a File System Image:**
 
     ```sh
-    mount --file /data/data/com.termux/files/home/example.img --mount /data/data/com.termux/files/home/mountpoint
+    mount /data/data/com.termux/files/home/example.img /data/data/com.termux/files/home/mountpoint
     ```
 
-3. **Unmounting the File System Image:**
+3. **Unmounting a File System Image:**
 
     ```sh
-    unmount --file /data/data/com.termux/files/home/example.img --umount /data/data/com.termux/files/home/mountpoint
+    unmount /data/data/com.termux/files/home/mountpoint
     ```
 
 4. **Performing a Bind Mount:**
