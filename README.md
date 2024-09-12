@@ -83,7 +83,7 @@ mount-bind /data/data/com.termux/files/home/source_dir /data/data/com.termux/fil
 installation is as easiest as it can be we just have a install.sh in the releases tab that you can execute in termux using bash install.sh
 remember to do 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install clang make cmake git wget autoconf e2fsprogs
+pkg update -y && pkg upgrade -y
 ```
 before running the .sh script or it might ruin termux's packagement system
 ## Usage Examples
