@@ -78,6 +78,17 @@ mount-bind <dir/to/be/binded> <dir/to/bind/to>
 mount-bind /data/data/com.termux/files/home/source_dir /data/data/com.termux/files/home/target_dir
 ```
 
+### mkimg
+**Usage**
+```sh
+mkimg <name/of/img/to/make>
+```
+
+**Parameters:**
+- `<name/of/img/to/make>`: the name of the image to be created
+
+**Example:**
+mkimg ubuntu-FS # will create ubuntu-FS.img
 ## Installation
 installation is as easiest as it can be we just have a install.sh in the releases tab that you can execute in termux using bash install.sh
 remember to do 
