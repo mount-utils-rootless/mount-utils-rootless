@@ -81,14 +81,14 @@ mount-bind /data/data/com.termux/files/home/source_dir /data/data/com.termux/fil
 ### mkimg
 **Usage**
 ```sh
-mkimg <name/of/img/to/make>
+mkimg <name/of/img/to/make> <size-of it-in-MB>
 ```
 
 **Parameters:**
 - `<name/of/img/to/make>`: the name of the image to be created
-
+- `<size-of-it-in-MB>`: the size of the image in unit 'MB'(does not support decimals)
 **Example:**
-mkimg ubuntu-FS # will create ubuntu-FS.img
+mkimg ubuntu-FS 10000 # will create ubuntu-FS.img
 ## Installation
 installation is as easiest as it can be we just have a install.sh in the releases tab that you can execute in termux using bash install.sh
 remember to do 
