@@ -1,7 +1,3 @@
-Certainly! Here's a detailed `README.md` file that covers the tools and functionalities you're working with for Termux. This README includes instructions for using `genext2fs`, `proot`, `cmake`, `make`, `autoconf`, `clang`, `debugfs`, and the provided commands for mounting, unmounting, and mount-binding.
-
----
-
 # Termux Mount Utilities
 
 ## Overview
