@@ -85,7 +85,7 @@ remember to do
 ```bash
 pkg update -y && pkg upgrade -y && pkg install clang make cmake git wget autoconf e2fsprogs
 ```
-before installing the .deb package or it might ruin termux's packagement system
+before running the .sh script or it might ruin termux's packagement system
 ## Usage Examples
 
 1. **Creating a File System Image:**
