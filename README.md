@@ -23,13 +23,13 @@ This command mounts a file system image to a specified directory.
 **Usage:**
 
 ```sh
-mount <example.img> <example.dir/mount>
+mount </full/path/to/example.img> </full/path/to/example.dir>
 ```
 
 **Parameters:**
 
-- `<example.img>`: The path to the file system image to mount.
-- `<example.dir/mount>`: The directory where the file system image will be mounted.
+- `full/path/to/<example.img>`: The full path starting from / to the file system image to mount.
+- `<full/path/to/mount>`: The full path which starting from / for the directory where the file system image will be mounted.
 
 **Example:**
 
@@ -44,12 +44,12 @@ This command unmounts a previously mounted file system image.
 **Usage:**
 
 ```sh
-unmount <example.dir/mount>
+unmount <full/path/to/example.dir>
 ```
 
 **Parameters:**
 
-- `<example.dir/mount>`: The directory where the file system image is mounted.
+- `<full/path/to/mount>`: The full path starting from / for the directory where the file system image is mounted.
 
 **Example:**
 
