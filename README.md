@@ -93,7 +93,7 @@ mkimg ubuntu-FS 10000 # will create ubuntu-FS.img
 installation is as easiest as it can be we just have a install.sh in the releases tab that you can execute in termux using bash install.sh
 remember to do 
 ```bash
-pkg update -y && pkg upgrade -y
+pkg update -y && pkg upgrade -y ; apt update
 ```
 before running the .sh script or it might ruin termux's packagement system
 ## Usage Examples
